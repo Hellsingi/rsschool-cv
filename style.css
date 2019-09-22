@@ -1,0 +1,94 @@
+body{
+    background-color:#0a0e4b;
+    }
+
+.container{
+    width: 1024px;
+    background-color:#b8cffa;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    position:relative;
+    }
+
+.personal_information{
+    background-color:#f7f7f7;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    float:left;
+    }
+
+.photo{
+    height: 99%;
+    width: 30%;
+    float: left;
+    }
+
+.FIO{       
+    height: 99%;
+    width: 69%;
+    float: right;
+    }
+    
+
+.left_personal_information, .right_personal_information{        
+    width:50%;
+    height:180px;    
+    }
+    
+
+.left_personal_information{
+    float: left;
+    text-align: center; 
+    }  
+
+.right_personal_information{
+    float: right;
+    font-style: italic;
+    text-align: center; 
+    vertical-align: bottom;
+    font-size: 20px;
+    }
+
+.letter{
+    font-style: italic;
+    font-size: 24px;
+    }
+
+.contacts{
+    height: 50%;
+    margin-top: 33px;
+    font-style: bold; 
+    }
+
+.menu{        
+    width:1024px;
+    background-color:#ffffff;
+    margin: auto;
+    float:left;
+    clear:left;  
+    }
+
+td{
+    padding:0px;
+    width:176px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center; 
+    vertical-align: baseline;        
+    }
+
+.summary,.skills,.education,.experience,.example_code,.english_level{
+    font-size: 20px;
+    text-align: left ;
+    margin-left: 5%;
+    align-content: justify;
+}
+
+.footer{
+    text-align: right;
+    font-size: 16px;
+}
